@@ -13,6 +13,7 @@ node index.js
 echo.
 echo ===================================================
 echo     Fim da execucao. Leia as mensagens acima.
+echo  Pressione qualquer tecla para fechar esta janela.
 echo ===================================================
 echo.
 
