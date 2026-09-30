@@ -53,7 +53,7 @@ const path = require('path');
 
         // 4. Navega direto para a página de histórico
         console.log('Navegando para o histórico...');
-        await page.goto('https://staging.workers.pontonaweb.com/historico.php', { waitUntil: 'networkidle0' });
+        await page.goto('https://staging.workers.pontonaweb.com/historico.php', { waitUntil: 'networkidle2' });
 
         // PAUSA DE SEGURANÇA: Aguarda 2 segundos para garantir que tabelas e CSS terminaram de renderizar
         await new Promise(resolve => setTimeout(resolve, 10000));
